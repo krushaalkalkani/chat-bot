@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chat-Bot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <script src="/login.js"></script>
+    <script
+      async
+      defer
+      src="https://apis.google.com/js/api.js"
+      onload="gapiLoaded()"
+    ></script>
+    <script
+      async
+      defer
+      src="https://accounts.google.com/gsi/client"
+      onload="gisLoaded()"
+    ></script>
+    <div class="box-container">
+        <div class="first-page">
+            <header>
+                <div class="logo">
+                    <img src="images/header-logo.png" alt="Company Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <button id="login" onclick="handleAuthClick()">
+                    <img src="images/google.png" alt="google-logo" class="google-logo">
+                    <span>Sign In</span>
+                </button>
+            </header>
+
+            <div class="body" id="home">
+                <div class="body-content">
+                    <h1>Make your life productive with chatbot</h1>
+                    <p>As a Google Calendar chat bot, I can help you manage your meetings. You can book a meeting, reject or accept meeting requests, and keep track of all your appointments in My Meetings.</p>
+                    
+                </div>
+
+                <div class="body-image">
+                    <a href=""><img class="img" src="images/Robot-removebg-preview.png" alt=" logo image"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="middle" id="features">
+            <h1>Advance AI Technology</h1>
+            <div class="sec">
+                <div class="left">
+                    <div class="left-up">
+                        <button class="custom-btn btn-3"><span>What are my Meettings?</span></button>
+                    </div>
+                    <div class="left-down">
+                        <button class="custom-btn btn-3"><span>Book a Meeting</span></button>
+                    </div>
+                </div>
+                <div class="box">
+                    <img class="img" src="images/unnamed(1).png" alt=" logo image">
+                </div>
+
+                <div class="right">
+                    <div class="right-up">
+                        <button class="custom-btn btn-3"><span>Reject Meettings</span></button>
+                    </div>
+                    <div class="right-down">
+                        <button class="custom-btn btn-3"><span>Accept Meettings</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer-distributed" id="contact">
+
+            <div class="footer-left">
+
+                <div class="footer-logo">
+                    <a href=""><img src="images/footer.png" alt=" logo image"></a>
+                </div>
+                <div>
+
+                </div>
+
+            </div>
+
+            <div class="footer-center">
+
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>9<sup>th</sup> floor Sheth Corparate Tower</span> near ellisbridge, Ahmedabad</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+1.555.555.5555</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:support@company.com">support@chatboat.com</a></p>
+                </div>
+
+            </div>
+
+            <div class="footer-right">
+
+                <p class="footer-company-about">
+                    <span>About the company</span>
+                    Your virtual assistant that provides quick and accurate responses, making interactions seamless and efficient.
+                </p>
+
+                <div class="footer-icons">
+
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
